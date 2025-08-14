@@ -106,10 +106,15 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
 ### Detrás de las cámaras (¡digo pantalla!)
 
 Fuera de mi trabajo, tengo las siguiente aficiones:
-● Me sigo formando en este mundillo y cacharreando con mi servidor ("homelab").
-● Cuando se puede, me gusta  jugar a rol y a juegos de mesa.
-● Apasionado del mundo de las motos.
-● Y si no lo has deducido por mi avatar, también me gusta ver de vez en cuando anime.
+<section id="Hobbies">
+          <ul class="list">
+              <li>● Me sigo formando en este mundillo y cacharreando con mi servidor ("homelab")</li>
+              <li>● Cuando se puede, me gusta  jugar a rol y a juegos de mesa</li>
+              <li>● Apasionado del mundo de las motos</li>
+              <li>● Y si no lo has deducido por mi avatar, también me gusta ver de vez en cuando anime</li>
+          </ul>
+        </section>
+
 
 ### Contacta conmigo
 
