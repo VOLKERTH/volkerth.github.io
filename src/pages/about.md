@@ -15,12 +15,22 @@ Actualmente trabajo Administrador de sistemas dando soporte a nivel nacional de 
 Te clasifico por categorías las tecnologías, marcas que usamos en el día a día y acciones que llevamos a cabo:
 
 
+####     <b>Sistemas Operativos</b>
+<section id="Sistemas Operativos">
+          <ul class="pill-list">
+              <li>Linux (Ubuntu, ESXi, PhotonOS, CentOS, AMI EC2...)</li>
+              <li>Windows (10, 11, Server 2003-2025)</li>
+              <li>Mac OS (Catalina - Sequoia)</li>
+          </ul>
+        </section>
+
+
 ####     <b>Virtualización</b>
 <section id="Virtualización">
           <ul class="pill-list">
               <li>VMware ESXi</li>
               <li>VMware vCenter</li>
-              <li>Hyper-V (la solución que más se está vendiendo actualmente en la empresa actual)</li>
+              <li>Hyper-V (la solución que más se está vendiendo en la empresa actual)</li>
               <li>Proxmox (hay un cliente que está empezando con esta tecnología)</li>
           </ul>
         </section>
@@ -28,9 +38,9 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
 
 
 ####     <b>Ciberseguridad</b>
+En su mayoría son acciones relacionadas con BlueTeam, que complementan nuestro trabajo de administrador de sistemas, y tareas que comparten temática con otros apartados de esta lista
 <section id="Ciberseguridad">
           <ul class="pill-list">
-              <li>En su mayoría son acciones relacionadas con BlueTeam, y tareas que se repiten en cada sección de esta lista</li>
               <li>Despliegue e instalación de antivirus y automatización (Crowdstrike, Kaspersky, Sophos, ESET... )</li>
               <li>Configuración políticas EDR/XDR</li>
               <li>Analizar logs y configuración de los firewalls (conexiones activas, protocolos...)</li>
@@ -44,8 +54,8 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
 ####     <b>Cloud</b>
 <section id="Cloud">
           <ul class="pill-list">
-              <li>Azure (Entra ID, Entra Connect, Defender XDR, Purview, VPN, Office365, ...)</li>
-              <li>AWS (Disaster Recovery con Veeam, EC2, S3)</li>
+              <li>Azure (Entra ID, Entra Connect, Defender, Purview, VPN, VNet, Apps, Firewall, WAF, NSG, ASG...)</li>
+              <li>AWS (IAM, Disaster Recovery con Veeam, EC2, S3, VPC, NSG...)</li>
           </ul>
         </section>
 
