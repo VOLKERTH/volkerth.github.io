@@ -1,37 +1,22 @@
 ---
 layout: ../layouts/PageLayout.astro
-title: "Now"
-description: "What I'm focusing on now"
+title: "Mi homelab"
+description: "Mi homelab"
 ---
 
-# What I'm Doing Now
+# Características de mi homelab
 
----
+No esperes que tenga un rack, un ordenador de la NASA o algo relacionado con la computación cuántica, esto lo monté para poder cacharrear con bajo presupuesto.
 
-**Last Updated**: January 2024
+* Pack de placa base china K99 K9S(de Aliexpress) de la marca QIYIDA.
+* 64Gb de RAM (El pack le cogí de 32Gb, pero terminé añadiendo otros 2 módulos de 16Gb)
+* Procesador Intel Xeon E5 2680V4 de 14 núcleos / 28 hilos, socket LGA2011-3
+* Discos duros (los que tenía por casa):
+    1Tb SSD Kingston
+    2Tb SATA Seagate
+* Fuente de alimentación 500W
+* Tarjeta Gráfica Gigabyte GTX 750 Ti OC Windforce 2GB (la que tenía mi hermano en su PC)
 
-## Professional Focus
+Todo lo monté en una caja ITX/M-ATX (JONSBO, por si lo quieres mirar en Aliexpress, aunque ahora no está disponible), e hice hincapié en la refrigeración y el flujo de aire para que no haya ningún problema.
 
-- Developing a comprehensive design system for a sustainable tech startup
-- Writing a series of design process workshops for local creative professionals
-- Consulting on brand identity for two emerging social impact organizations
-
-## Learning & Growth
-
-- Diving deep into motion design and advanced animation techniques
-- Taking an online course on inclusive design principles
-- Exploring generative AI's impact on creative workflows
-
-## Personal Projects
-
-- Designing a limited-edition art print collection
-- Building a small home studio for design and illustration work
-- Developing a design mentorship program for early-career creatives
-
-## Life & Wellness
-
-- Practicing daily morning sketching
-- Training for a local half-marathon
-- Experimenting with plant-based cooking
-
-_Inspired by Derek Sivers' [nownownow](https://nownownow.com) project_
+También cuento con una suscripción en Whizlabs, que me permite levantar un entorno playground de AWS, Azure, GCP, Hyper-V... con el que haré laboratorios y prácticas.
