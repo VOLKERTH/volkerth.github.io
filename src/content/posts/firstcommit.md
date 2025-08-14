@@ -1,15 +1,41 @@
 ---
-title: "First Commit"
+title: "First Commit, preparando el entorno"
 slug: "color-psychology-branding"
 description: "Mi primer post"
 publicationDate: 2025-08-14
-category: "Personal / Reflexión"
+category: "Proxmox"
 public: true
 author: "Sergio Muñoz"
 ---
 
-Colors are silent communicators, carrying deep psychological and emotional resonance that extends far beyond aesthetic preferences. Each hue carries its own language, triggering specific feelings and associations that can profoundly impact how a brand is perceived.
+En esta primera entrada del blog, quiero usarlo para explicar el entorno en el que vamos a trabajar, mi homelab (los detalles del hardware en la pestaña "Homelab"), tengo instalado <b>Proxmox PVE 9.0</b>, recién publicada hace una semana de esta entrada.
 
-When redesigning a wellness app's visual identity, we dove deep into color psychology. The initial palette used aggressive reds and stark whites, which felt clinical and cold—precisely the opposite of the nurturing, holistic experience the app wanted to convey. After extensive research and multiple iterations, we selected a carefully curated palette centered on soft sage green, complemented by muted earth tones.
+Una vez instalado (pasos sencillos, crear el USB bootable con Rufus y seguir el asistente de instalación que es bastante sencillo y pocos pasos), lo primero que hice fue crear un grupo de <i>Administradores</i>, y un rol de permisos para el mismo, para no asignar permisos a usuarios sueltos.
 
-This color choice wasn't arbitrary. Sage green symbolizes healing, growth, and balance. It evokes images of nature, suggesting restoration and organic wellness. By integrating this color with thoughtful typography and clean design elements, we transformed the app's entire brand perception. The new design felt welcoming, trustworthy, and aligned with the app's mission of holistic personal care.
+Creo mi usuario en Linux, desde la terminal en el propio nodo
+
+<code class="bash">useradd -m -s/bin/bash sysops</code>
+
+Añado este usuario al grupo <i>Administradores</i>, y habilito MFA en <i>root</i> y <i>sysops</i>.
+
+Otros ajustes que suelo hacer, son dos cambios en cuanto a almacenamiento:
+    <ul class="list">
+        <li>◦ Usar todo el tamaño del disco del sistema en una misma partición, del datastore <i>local-lvm</i>.</li>
+        <li>◦ Asignar funciones a los datastores (que ambos alojen máquinas virtuales, imágenes de disco, contenedores...)</li>
+    </ul>
+
+Los pasos para eliminar local-lvm y tener así el disco en una sola partición:
+<code class="bash">
+<ul class="list">
+<li>lvremove /dev/pve/data</li>
+<li>lvresize -l +%100%FREE /dev/pve/root</li>
+<li>resize2fs /dev/mapper/pve-root</li>
+</code>
+
+Con esto nos aparecerá dos datastores, y uno de ellos con interrogación, podemos borrarlo en <code>Datacenter -> Storage</code>:
+<img src="/images/datastores.jpg">
+
+Para la segunda acción, desde la misma pantalla que hemos borrado el datastore, seleccionamos el datastore y en la parte <i>Content</i>, seleccionamos los permisos que deseamos.
+
+<b>TIP</b>: En el caso de tener dos discos con la misma capacidad, te recomiendo crear un volumen ZFS, y hacer un RAID con ambos.
+Se hace desde el <code>nodo/host -> Disks -> ZFS</code> y seleccionamos la opción que más se adapte a nosotros.
