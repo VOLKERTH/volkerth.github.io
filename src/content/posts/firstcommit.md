@@ -1,6 +1,6 @@
 ---
 title: "First Commit, preparando el entorno"
-slug: "color-psychology-branding"
+slug: ""
 description: "Mi primer post"
 publicationDate: 2025-08-14
 category: "Proxmox"
@@ -30,7 +30,7 @@ Los pasos para eliminar <i>local-lvm</i> y tener así el disco en una sola parti
 <p><code class="bash">resize2fs /dev/mapper/pve-root</code></p>
 
 Con esto nos aparecerá dos datastores, y uno de ellos con interrogación, podemos borrarlo en <code>Datacenter -> Storage</code>:
-<img src="/src/content/posts/images/datastores.jpg"/>
+<img src="/assets/images/datastores.jpg">
 
 Para la segunda acción, desde la misma pantalla que hemos borrado el datastore, seleccionamos el datastore y en la parte <i>Content</i>, seleccionamos los permisos que deseamos.
 
