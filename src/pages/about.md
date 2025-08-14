@@ -15,7 +15,7 @@ Actualmente trabajo Administrador de sistemas dando soporte a nivel nacional de 
 Te clasifico por categorías las tecnologías, marcas que usamos en el día a día y acciones que llevamos a cabo:
 
 
-###     Virtualización
+####     Virtualización
 <section id="Virtualización">
           <ul class="pill-list">
               <li>VMware ESXi</li>
@@ -27,7 +27,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
 
 
 
-###     Ciberseguridad
+####     Ciberseguridad
 <section id="Ciberseguridad">
           <ul class="pill-list">
               <li>En su mayoría son acciones relacionadas con BlueTeam, y tareas que se repiten en cada sección de esta lista</li>
@@ -41,7 +41,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
-###     Cloud
+####     Cloud
 <section id="Cloud">
           <ul class="pill-list">
               <li>Azure (Entra ID, Entra Connect, Defender XDR, Purview, VPN, Office365, ...)</li>
@@ -50,7 +50,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
-###     Networking
+####     Networking
 <section id="Networking">
           <ul class="pill-list">
               <li>Azure VNet</li> 
@@ -66,7 +66,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
-###     VDI (Infraestructura de escritorios virtuales)
+####     VDI (Infraestructura de escritorios virtuales)
 <section id="VDI">
           <ul class="pill-list">
               <li>VMware Horizon</li>
@@ -75,23 +75,23 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
-###     Almacenamiento
+####     Almacenamiento
 <section id="Almacenamiento">
           <ul class="pill-list">
-              <li>Blob Storage</li>
-              <li>AWS S3</li> 
-              <li>NAS (Synology, QNAP)</li> 
-              <li>HPE MSA</li>
-              <li>HPE VSA</li>
-              <li>HPE Nimble</li>
-              <li>HPE StoreOnce</li>
-              <li>TrueNAS</li>
-              <li>OwnCloud</li>
+              ● <li>Blob Storage</li>
+              ● <li>AWS S3</li> 
+              ● <li>NAS (Synology, QNAP)</li> 
+              ● <li>HPE MSA</li>
+              ● <li>HPE VSA</li>
+              ● <li>HPE Nimble</li>
+              ● <li>HPE StoreOnce</li>
+              ● <li>TrueNAS</li>
+              ● <li>OwnCloud</li>
           </ul>
         </section>
 
 
-###     Backup
+####     Backup
 <section id="Backup">
           <ul class="pill-list">
               <li>Veeam Backup and restore</li>
@@ -103,7 +103,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
 
 
 
-## Detrás de las cámaras (¡digo pantalla!)
+### Detrás de las cámaras (¡digo pantalla!)
 
 Fuera de mi trabajo, tengo las siguiente aficiones:
 - Me sigo formando en este mundillo y cacharreando con mi servidor ("homelab").
@@ -111,7 +111,7 @@ Fuera de mi trabajo, tengo las siguiente aficiones:
 - Apasionado del mundo de las motos.
 - Y si no lo has deducido por mi avatar, también me gusta ver de vez en cuando anime.
 
-## Contacta conmigo
+### Contacta conmigo
 
 Si quieres que participe o que montemos un proyecto, aunque no tenga conocimiento de ello tanto tú como yo, encantado de unirme y crear comunidad, pero la idea es descubrir nuevas metodologías, buenas prácticas, tecnologías, dialogar acerca de este mundillo, contáctame con plena confianza.
 En la página principal tienes las distintas formas en las que puedes contactar conmigo.

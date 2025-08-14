@@ -17,6 +17,21 @@ No esperes que tenga un rack, un ordenador de la NASA o algo relacionado con la 
 * · Fuente de alimentación 500W
 * · Tarjeta Gráfica Gigabyte GTX 750 Ti OC Windforce 2GB (la que tenía mi hermano en su PC)
 
+###     Almacenamiento
+<section id="Almacenamiento">
+          <ul class="pill-list">
+              <li>Blob Storage</li>
+              <li>AWS S3</li> 
+              <li>NAS (Synology, QNAP)</li> 
+              <li>HPE MSA</li>
+              <li>HPE VSA</li>
+              <li>HPE Nimble</li>
+              <li>HPE StoreOnce</li>
+              <li>TrueNAS</li>
+              <li>OwnCloud</li>
+          </ul>
+        </section>
+
 Todo lo monté en una caja ITX/M-ATX (JONSBO, por si lo quieres mirar en Aliexpress, aunque ahora no está disponible), e hice hincapié en la refrigeración y el flujo de aire para que no haya ningún problema.
 
 También cuento con una suscripción en Whizlabs, que me permite levantar un entorno playground de AWS, Azure, GCP, Hyper-V... con el que haré laboratorios y prácticas.
