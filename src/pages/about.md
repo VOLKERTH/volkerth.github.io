@@ -29,7 +29,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         <h2 class="solway-regular">Ciberseguridad</h2>
           <ul class="pill-list">
               <li>En su mayoría son acciones relacionadas con BlueTeam, y tareas que se repiten en cada sección de esta lista</li>
-              <li>Despliegue e instalación da antivirus y automatización (Crowdstrike, Kaspersky, Sophos, ESET... )</li>
+              <li>Despliegue e instalación de antivirus y automatización (Crowdstrike, Kaspersky, Sophos, ESET... )</li>
               <li>Configuración políticas EDR/XDR</li>
               <li>Analizar logs y configuración de los firewalls (conexiones activas, protocolos...)</li>
               <li>Análisis de los equipos afectados realizando tareas forenses (puertos en escucha, software instalado, ficheros sospechosos)</li>
@@ -113,3 +113,120 @@ Fuera de mi trabajo, tengo las siguiente aficiones:
 
 Si quieres que participe o que montemos un proyecto, aunque no tenga conocimiento de ello tanto tú como yo, encantado de unirme y crear comunidad, pero la idea es descubrir nuevas metodologías, buenas prácticas, tecnologías, dialogar acerca de este mundillo, contáctame con plena confianza.
 En la página principal tienes las distintas formas en las que puedes contactar conmigo.
+
+  <style>
+    .card {
+      padding: 1rem;
+      background: var(--color-card);
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(var(--color-border), 0.33);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+    }
+    .card h3 {
+      margin: 0;
+    }
+    .card:hover h3 {
+      color: var(--color-link);
+    }
+    .card p {
+      margin: 0.5rem 0 0;
+    }
+
+    .finds-box {
+        padding: 1em;
+    }
+
+    .posts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+
+    /* ===== Hero Section ===== */
+    #hero {
+      padding-bottom: 1.5rem; 
+      padding-top: 2rem; 
+    }
+    #hero .subtitle {
+      margin: 0.5rem; 
+      font-size: var(--step-1);
+      line-height: 1.25rem; 
+    }
+    #hero-title {
+      display: flex; 
+      gap: 1rem; 
+      align-items: center;  
+    }
+    #hero h1 {
+      display: inline-block; 
+      margin: 0; 
+      font-size: var(--step-4);
+      line-height: 2.25rem; 
+      font-weight: 700; 
+
+    }
+    #hero img {
+      border-radius: 9999px; 
+      border: 4px solid var(--color-button-border); 
+      width: 8rem; 
+      height: 8rem;
+    }
+
+    #hero p {
+      margin-top: 1rem;
+      margin-bottom: 1rem; 
+    }
+    
+    #action-links {
+        display: flex; 
+        margin: 0.25rem; 
+        flex-wrap: wrap; 
+        list-style-type: none
+    }
+
+    #action-links li a {
+      display: block; 
+      padding: 0.25rem; 
+      margin-right: 0.5rem; 
+      font-weight: 700; 
+      border-color: var(--color-border);
+    }
+
+    .pill-list {
+      display: flex; 
+      margin-top: 2rem; 
+      flex-wrap: wrap; 
+      list-style-type: none
+    }
+
+    .pill-list li {
+      padding: 0.25rem; 
+      margin: 0.5rem; 
+      border-radius: 0.25rem; 
+      border: 1px solid var(--color-button-border); 
+      font-size: var(--step--1);
+      line-height: 1.25rem;
+    }
+
+    /* ===== Featured & Recent Posts Sections ===== */
+   section {
+      padding-bottom: 1.5rem; 
+      padding-top: 1.5rem; 
+    }
+
+    section h2 {
+      font-size: var(--step-2);
+      line-height: 1rem; 
+      font-weight: 600; 
+      letter-spacing: 0.025em; 
+    }
+    .all-posts-btn-wrapper { 
+      text-align: center; 
+    }
+  </style>
