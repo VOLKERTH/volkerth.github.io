@@ -25,9 +25,9 @@ Otros ajustes que suelo hacer, son dos cambios en cuanto a almacenamiento:
     </ul>
 
 Los pasos para eliminar <i>local-lvm</i> y tener así el disco en una sola partición:
-<code class="bash">lvremove /dev/pve/data</code>
-<code class="bash">lvresize -l +%100%FREE /dev/pve/root</code>
-<code class="bash">resize2fs /dev/mapper/pve-root</code>
+<p><code class="bash">lvremove /dev/pve/data</code></p>
+<p><code class="bash">lvresize -l +%100%FREE /dev/pve/root</code></p>
+<p><code class="bash">resize2fs /dev/mapper/pve-root</code></p>
 
 Con esto nos aparecerá dos datastores, y uno de ellos con interrogación, podemos borrarlo en <code>Datacenter -> Storage</code>:
 <img src="/src/content/posts/images/datastores.jpg"/>
