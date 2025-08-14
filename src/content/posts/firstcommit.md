@@ -25,14 +25,12 @@ Otros ajustes que suelo hacer, son dos cambios en cuanto a almacenamiento:
     </ul>
 
 Los pasos para eliminar <i>local-lvm</i> y tener así el disco en una sola partición:
-<code class="bash">
-<p>lvremove /dev/pve/data</p>
-<p>lvresize -l +%100%FREE /dev/pve/root</p>
-<p>resize2fs /dev/mapper/pve-root</p>
-</code>
+<code class="bash">lvremove /dev/pve/data</code>
+<code class="bash">lvresize -l +%100%FREE /dev/pve/root</code>
+<code class="bash">resize2fs /dev/mapper/pve-root</code>
 
 Con esto nos aparecerá dos datastores, y uno de ellos con interrogación, podemos borrarlo en <code>Datacenter -> Storage</code>:
-<img src="/posts/images/datastores.jpg"/>
+<img src="/src/content/posts/images/datastores.jpg"/>
 
 Para la segunda acción, desde la misma pantalla que hemos borrado el datastore, seleccionamos el datastore y en la parte <i>Content</i>, seleccionamos los permisos que deseamos.
 
