@@ -38,8 +38,8 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
 
 
 ####     <b>Ciberseguridad</b>
-En su mayoría son acciones relacionadas con BlueTeam, que complementan nuestro trabajo de administrador de sistemas, y tareas que comparten temática con otros apartados de esta lista
-<section id="Ciberseguridad">
+
+En su mayoría son acciones relacionadas con BlueTeam, que complementan nuestro trabajo de administrador de sistemas, y tareas que comparten temática con otros apartados de esta lista<section id="Ciberseguridad">
           <ul class="pill-list">
               <li>Despliegue e instalación de antivirus y automatización (Crowdstrike, Kaspersky, Sophos, ESET... )</li>
               <li>Configuración políticas EDR/XDR</li>
