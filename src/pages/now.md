@@ -15,8 +15,8 @@ No esperes que tenga un rack, un ordenador de la NASA o algo relacionado con la 
               <li>● Procesador Intel Xeon E5 2680V4 de 14 núcleos / 28 hilos, socket LGA2011-3</li>
               <li>● Discos duros (los que tenía por casa)</li>
                 <ul class="submenu">
-                    <li>1Tb SSD Kingston</li>
-                    <li>2Tb SATA Seagate</li>
+                    <li>◦ 1Tb SSD Kingston</li>
+                    <li>◦ 2Tb SATA Seagate</li>
                 </ul>
               <li>● Fuente de alimentación 500W</li>
               <li>● Tarjeta Gráfica Gigabyte GTX 750 Ti OC Windforce 2GB (la que tenía mi hermano en su PC)</li>
