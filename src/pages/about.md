@@ -107,7 +107,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
 
 Fuera de mi trabajo, tengo las siguiente aficiones:
 <section id="Hobbies">
-          <ul class="list">
+          <ul>
               <li>● Me sigo formando en este mundillo y cacharreando con mi servidor ("homelab")</li>
               <li>● Cuando se puede, me gusta  jugar a rol y a juegos de mesa</li>
               <li>● Apasionado del mundo de las motos</li>
