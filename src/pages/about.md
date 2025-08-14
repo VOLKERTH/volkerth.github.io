@@ -8,71 +8,100 @@ description: "Acerca de mí"
 
 ---
 
-Actualmente trabajo Administrador de sistemas dando soporte a nivel nacional de manera remota, dando soporte a compañeros y también haciendo de mentor. Llevo 11 años trabajando en el sector IT.
-
-## Mi día a día
-
-My love for design started in my college dorm room, where I'd spend hours tinkering with typography and color palettes. What began as a hobby quickly became a passion, and now it's my career. I've been fortunate to work with clients ranging from scrappy startups to established brands, each project teaching me something new.
+Actualmente trabajo Administrador de sistemas dando soporte a nivel nacional de manera remota, dando soporte a compañeros y también haciendo de mentor. Llevo 11 años trabajando en el sector IT, desde microinformática, pasando por infraestructura on-premise, hasta entornos en nube y contenedores.
 
 ## Tecnologías que actualmente uso
 
-Te desgrano por categorías las tecnologías y marcas que usamos en nuestro día a día:
+Te clasifico por categorías las tecnologías, marcas que usamos en el día a día y acciones que llevamos a cabo:
 
-* Virtualización
-
-    VMware ESXi
-    VMware vCenter
-    Hyper-V (la solución que más se está vendiendo actualmente en la empresa actual)
-    Proxmox (hay un cliente que está empezando con esta tecnología)
-
-* Ciberseguridad
-
-    En su mayoría son acciones relacionadas con BlueTeam, y tareas que se repiten en cada sección de esta lista.
-        Despliegue e instalación da antivirus y automatización (Crowdstrike, Kaspersky, Sophos, ESET... )
-        Configuración políticas EDR/XDR.
-        Analizar logs y configuración de los firewalls (conexiones activas, protocolos...).
-        Análisis de los equipos afectados realizando tareas forenses (puertos en escucha, software instalado, ficheros sospechosos).
-        Reporte incidente en colaboración con el equipo de cibeseguridad que realizaron previo análisis y auditoría (RedTeam en su mayoría el departamento).
-        Aplicar políticas MFA, en su mayoría Azure.
+<section id="Virtualización">
+        <h2 class="solway-regular">Virtualización</h2>
+          <ul class="pill-list">
+              <li>VMware ESXi</li>
+              <li>VMware vCenter</li>
+              <li>Hyper-V (la solución que más se está vendiendo actualmente en la empresa actual)</li>
+              <li>Proxmox (hay un cliente que está empezando con esta tecnología)</li>
+          </ul>
+        </section>
 
 
-* Cloud
-
-    Azure (Entra ID, Entra Connect, Defender XDR, Purview, Office365, ...)
-    AWS (Disaster Recovery con Veeam, EC2, S3)
-
-* Redes / networking
-
-    Fortinet
-    Sophos
-    SonicWall
-    HPE Aruba
-    VMware NSX
-    CISCO
-    Cyberoam
-
-* VDI (Infraestructura de escritorios virtuales)ç
-
-    VMware Horizon
-    Citrix
-
-* Almacenamiento
-
-    NAS
-    MSA
-    VSA
-    HPE Nimble
-    HPE StoreOnce
+<section id="Ciberseguridad">
+        <h2 class="solway-regular">Ciberseguridad</h2>
+          <ul class="pill-list">
+              <li>En su mayoría son acciones relacionadas con BlueTeam, y tareas que se repiten en cada sección de esta lista</li>
+              <li>Despliegue e instalación da antivirus y automatización (Crowdstrike, Kaspersky, Sophos, ESET... )</li>
+              <li>Configuración políticas EDR/XDR</li>
+              <li>Analizar logs y configuración de los firewalls (conexiones activas, protocolos...)</li>
+              <li>Análisis de los equipos afectados realizando tareas forenses (puertos en escucha, software instalado, ficheros sospechosos)</li>
+              <li>Reporte incidente en colaboración con el equipo de cibeseguridad que realizaron previo análisis y auditoría (RedTeam en su mayoría el departamento)</li>
+              <li>Aplicar políticas MFA, en su mayoría Azure</li>
+          </ul>
+        </section>
 
 
-* Copias de seguridad / Backup
+<section id="Cloud">
+        <h2 class="solway-regular">Cloud</h2>
+          <ul class="pill-list">
+              <li>Azure (Entra ID, Entra Connect, Defender XDR, Purview, VPN, Office365, ...)</li>
+              <li>AWS (Disaster Recovery con Veeam, EC2, S3)</li>
+          </ul>
+        </section>
 
-    Veeam Backup and restore
-    Veeam VSPC
+
+<section id="Networking">
+        <h2 class="solway-regular">Networking</h2>
+          <ul class="pill-list">
+              <li>Azure VNet</li> 
+              <li>AWS VPC</li>
+              <li>Fortinet</li>
+              <li>Sophos</li>
+              <li>SonicWall</li>
+              <li>HPE Aruba</li>
+              <li>VMware NSX</li>
+              <li>CISCO</li>
+              <li>Cyberoam</li>
+          </ul>
+        </section>
+
+
+<section id="VDI">
+        <h2 class="solway-regular">VDI (Infraestructura de escritorios virtuales)</h2>
+          <ul class="pill-list">
+              <li>VMware Horizon</li>
+              <li>Citrix</li>
+          </ul>
+        </section>
+
+
+<section id="Almacenamiento">
+        <h2 class="solway-regular">Almacenamiento</h2>
+          <ul class="pill-list">
+              <li>Blob Storage</li>
+              <li>AWS S3</li> 
+              <li>NAS (Synology, QNAP)</li> 
+              <li>HPE MSA</li>
+              <li>HPE VSA</li>
+              <li>HPE Nimble</li>
+              <li>HPE StoreOnce</li>
+              <li>TrueNAS</li>
+              <li>OwnCloud</li>
+          </ul>
+        </section>
+
+
+<section id="Backup">
+        <h2 class="solway-regular">Copias de seguridad / Backup</h2>
+          <ul class="pill-list">
+              <li>Veeam Backup and restore</li>
+              <li>Veeam VSPC</li>
+              <li>Cobian</li>
+              <li>Veeam VSPC</li>
+          </ul>
+        </section>
 
 
 
-## Detrás de las cámaras (digo pantalla!)
+## Detrás de las cámaras (¡digo pantalla!)
 
 Fuera de mi trabajo, tengo las siguiente aficiones:
 - Me sigo formando en este mundillo y cacharreando con mi servidor ("homelab").

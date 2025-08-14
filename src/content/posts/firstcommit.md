@@ -1,11 +1,11 @@
 ---
-title: "Color Psychology in Branding - More Than Just Pretty Palettes"
+title: "First Commit"
 slug: "color-psychology-branding"
-description: "A tale of miscommunication, mime, and dental hygiene in Paris"
-publicationDate: 2025-01-04
-category: "design"
+description: "Mi primer post"
+publicationDate: 2025-08-14
+category: "Personal / Reflexión"
 public: true
-author: "Jane Doe"
+author: "Sergio Muñoz"
 ---
 
 Colors are silent communicators, carrying deep psychological and emotional resonance that extends far beyond aesthetic preferences. Each hue carries its own language, triggering specific feelings and associations that can profoundly impact how a brand is perceived.
