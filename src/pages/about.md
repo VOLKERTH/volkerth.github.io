@@ -14,8 +14,9 @@ Actualmente trabajo Administrador de sistemas dando soporte a nivel nacional de 
 
 Te clasifico por categorías las tecnologías, marcas que usamos en el día a día y acciones que llevamos a cabo:
 
+
+###     Virtualización
 <section id="Virtualización">
-        <h2 class="solway-regular">Virtualización</h2>
           <ul class="pill-list">
               <li>VMware ESXi</li>
               <li>VMware vCenter</li>
@@ -25,8 +26,9 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
+
+###     Ciberseguridad
 <section id="Ciberseguridad">
-        <h2 class="solway-regular">Ciberseguridad</h2>
           <ul class="pill-list">
               <li>En su mayoría son acciones relacionadas con BlueTeam, y tareas que se repiten en cada sección de esta lista</li>
               <li>Despliegue e instalación de antivirus y automatización (Crowdstrike, Kaspersky, Sophos, ESET... )</li>
@@ -39,8 +41,8 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
+###     Cloud
 <section id="Cloud">
-        <h2 class="solway-regular">Cloud</h2>
           <ul class="pill-list">
               <li>Azure (Entra ID, Entra Connect, Defender XDR, Purview, VPN, Office365, ...)</li>
               <li>AWS (Disaster Recovery con Veeam, EC2, S3)</li>
@@ -48,8 +50,8 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
+###     Networking
 <section id="Networking">
-        <h2 class="solway-regular">Networking</h2>
           <ul class="pill-list">
               <li>Azure VNet</li> 
               <li>AWS VPC</li>
@@ -64,8 +66,8 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
+###     VDI (Infraestructura de escritorios virtuales)
 <section id="VDI">
-        <h2 class="solway-regular">VDI (Infraestructura de escritorios virtuales)</h2>
           <ul class="pill-list">
               <li>VMware Horizon</li>
               <li>Citrix</li>
@@ -73,8 +75,8 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
+###     Almacenamiento
 <section id="Almacenamiento">
-        <h2 class="solway-regular">Almacenamiento</h2>
           <ul class="pill-list">
               <li>Blob Storage</li>
               <li>AWS S3</li> 
@@ -89,8 +91,8 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
+###     Backup
 <section id="Backup">
-        <h2 class="solway-regular">Copias de seguridad / Backup</h2>
           <ul class="pill-list">
               <li>Veeam Backup and restore</li>
               <li>Veeam VSPC</li>
