@@ -23,6 +23,6 @@ No esperes que tenga un rack, un ordenador de la NASA o algo relacionado con la 
           </ul>
 </section>
 
-Todo lo monté en una caja ITX/M-ATX (JONSBO, por si lo quieres mirar en Aliexpress, aunque ahora no está disponible), e hice hincapié en la refrigeración y el flujo de aire para que no haya ningún problema.
+Todo lo monté en una caja ITX/M-ATX (JONSBO, por si lo quieres mirar en Aliexpress, aunque ahora no está disponible), e hice hincapié en la ventilación y el flujo de aire para que no haya ningún problema en la refrigeración.
 
-También cuento con una suscripción en Whizlabs, que me permite levantar un entorno playground de AWS, Azure, GCP, Hyper-V... con el que haré laboratorios y prácticas.
+También cuento con una suscripción en <b>Whizlabs</b>, que me permite levantar un entorno playground de <b>AWS, Azure, GCP, Hyper-V...</b> con el que haré laboratorios y prácticas.

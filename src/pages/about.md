@@ -15,7 +15,7 @@ Actualmente trabajo Administrador de sistemas dando soporte a nivel nacional de 
 Te clasifico por categorías las tecnologías, marcas que usamos en el día a día y acciones que llevamos a cabo:
 
 
-####     Virtualización
+####     <b>Virtualización</b>
 <section id="Virtualización">
           <ul class="pill-list">
               <li>VMware ESXi</li>
@@ -27,7 +27,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
 
 
 
-####     Ciberseguridad
+####     <b>Ciberseguridad</b>
 <section id="Ciberseguridad">
           <ul class="pill-list">
               <li>En su mayoría son acciones relacionadas con BlueTeam, y tareas que se repiten en cada sección de esta lista</li>
@@ -41,7 +41,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
-####     Cloud
+####     <b>Cloud</b>
 <section id="Cloud">
           <ul class="pill-list">
               <li>Azure (Entra ID, Entra Connect, Defender XDR, Purview, VPN, Office365, ...)</li>
@@ -50,7 +50,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
-####     Networking
+####     <b>Networking</b>
 <section id="Networking">
           <ul class="pill-list">
               <li>Azure VNet</li> 
@@ -66,7 +66,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
-####     VDI (Infraestructura de escritorios virtuales)
+####     <b>VDI (Infraestructura de escritorios virtuales)</b>
 <section id="VDI">
           <ul class="pill-list">
               <li>VMware Horizon</li>
@@ -75,7 +75,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
-####     Almacenamiento
+####     <b>Almacenamiento</b>
 <section id="Almacenamiento">
           <ul class="pill-list">
               <li>Blob Storage</li>
