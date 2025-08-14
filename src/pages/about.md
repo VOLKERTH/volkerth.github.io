@@ -78,15 +78,15 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
 ####     Almacenamiento
 <section id="Almacenamiento">
           <ul class="pill-list">
-              ● <li>Blob Storage</li>
-              ● <li>AWS S3</li> 
-              ● <li>NAS (Synology, QNAP)</li> 
-              ● <li>HPE MSA</li>
-              ● <li>HPE VSA</li>
-              ● <li>HPE Nimble</li>
-              ● <li>HPE StoreOnce</li>
-              ● <li>TrueNAS</li>
-              ● <li>OwnCloud</li>
+              <li>Blob Storage</li>
+              <li>AWS S3</li> 
+              <li>NAS (Synology, QNAP)</li> 
+              <li>HPE MSA</li>
+              <li>HPE VSA</li>
+              <li>HPE Nimble</li>
+              <li>HPE StoreOnce</li>
+              <li>TrueNAS</li>
+              <li>OwnCloud</li>
           </ul>
         </section>
 
@@ -106,10 +106,10 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
 ### Detrás de las cámaras (¡digo pantalla!)
 
 Fuera de mi trabajo, tengo las siguiente aficiones:
-- Me sigo formando en este mundillo y cacharreando con mi servidor ("homelab").
-- Cuando se puede, me gusta  jugar a rol y a juegos de mesa.
-- Apasionado del mundo de las motos.
-- Y si no lo has deducido por mi avatar, también me gusta ver de vez en cuando anime.
+● Me sigo formando en este mundillo y cacharreando con mi servidor ("homelab").
+● Cuando se puede, me gusta  jugar a rol y a juegos de mesa.
+● Apasionado del mundo de las motos.
+● Y si no lo has deducido por mi avatar, también me gusta ver de vez en cuando anime.
 
 ### Contacta conmigo
 
