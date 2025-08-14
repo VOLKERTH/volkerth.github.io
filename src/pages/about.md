@@ -91,7 +91,7 @@ Te clasifico por categorías las tecnologías, marcas que usamos en el día a d�
         </section>
 
 
-####     Backup
+####     <b>Backup</b>
 <section id="Backup">
           <ul class="pill-list">
               <li>Veeam Backup and restore</li>
